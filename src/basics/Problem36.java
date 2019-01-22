@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class Problem36 {
     public static void main(String []args) {
       Scanner sc = new Scanner(System.in);
-      System.out.print("Enter the latitude of the first coordinate:");
+      System.out.print("Enter the latitude of the first coordinate: ");
       double lat1 = sc.nextDouble();
-      System.out.print("Enter the longitude of the first coordinate:");
+      System.out.print("Enter the longitude of the first coordinate: ");
       double lon1 = sc.nextDouble();
-      System.out.print("\n" + "Enter the latitude of the second coordinate:");
+      System.out.print("\nEnter the latitude of the second coordinate: ");
       double lat2 = sc.nextDouble();
-      System.out.print("Enter the longitude of the second coordinate:");
+      System.out.print("Enter the longitude of the second coordinate: ");
       double lon2 = sc.nextDouble();
-      System.out.print("The distance between those points is: " + distance(lat1, lon1, lat2, lon2) + " kilometers");
+      System.out.format("\nThe distance between those points is: %.2f kilometers", distance(lat1, lon1, lat2, lon2));
 
       sc.close();
     }
