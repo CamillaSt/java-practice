@@ -9,8 +9,7 @@ public class Problem41 {
     System.out.print("Input a letter to see it's ascii value: ");
     char letter = sc.next(".").charAt(0);
     
-    char character = letter;
-    int ascii = (int) character;
-    System.out.print("The ascii value of " + letter + " is: " + ascii);
+    int ascii = (int) letter;
+    System.out.format("The ascii value of %c is: %d", letter, ascii);
   }
 }
