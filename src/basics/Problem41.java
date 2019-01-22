@@ -11,6 +11,6 @@ public class Problem41 {
     
     char character = letter;
     int ascii = (int) character;
-    System.out.print("The ascii value of " + letter + " is: " + ascii);
+    System.out.format("The ascii value of %c is: %d", letter, ascii);
   }
 }
