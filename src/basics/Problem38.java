@@ -13,24 +13,23 @@ public class Problem38 {
     sc.close();
   }
 
-  public static void count (String input) {
+  public static void count(String input) {
     int letters = 0;
-    int space = 0;
+    int spaces = 0;
     int numbers = 0;
 
     for (char c:  input.toCharArray()) {
-
       if (Character.isDigit(c)) {
-          numbers ++;
+        numbers ++;
       } else if (Character.isLetter(c)) {
-          letters ++;
+        letters ++;
       } else if (Character.isWhitespace(c)) {
-          space++;
+        spaces++;
       }
     }
 
     System.out.println("The amount of numbers is: " + numbers);
     System.out.println("The amount of letters is: " + letters);
-    System.out.println("The amount of spaces is: " + space);
+    System.out.println("The amount of spaces is: " + spaces);
   }
 }
