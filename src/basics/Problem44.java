@@ -7,7 +7,6 @@ public class Problem44 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a number: ");  
     int input = sc.nextInt();
-    char a, b, c;
     System.out.printf("%d + %d%d + %d%d%d\n", input, input, input, input, input, input);
   }
 }
