@@ -3,7 +3,7 @@ package basics;
 public class Problem48 {
   public static void main(String[] args) {
     System.out.println("Displaying odd numbers 1-100: ");
-    for(int i = 1; i < 100; i++) {
+    for (int i = 1; i < 100; i++) {
         if (i % 2 != 0) {
             System.out.println(i);
         }
