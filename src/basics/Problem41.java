@@ -11,5 +11,7 @@ public class Problem41 {
     
     int ascii = (int) letter;
     System.out.format("The ascii value of %c is: %d", letter, ascii);
+
+    sc.close();
   }
 }
