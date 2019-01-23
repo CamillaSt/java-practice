@@ -1,6 +1,5 @@
 package basics;
 
-import java.util.Scanner;
 import java.io.Console;
 
 public class Problem42 {
