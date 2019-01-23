@@ -8,7 +8,7 @@ public class Problem42 {
   public static void main(String []args) {
     Console con = System.console();
 
-    System.out.print("Enter your password: ");y
+    System.out.print("Enter your password: ");
     char[] password = con.readPassword();
 
     String psw = String.valueOf(password);
