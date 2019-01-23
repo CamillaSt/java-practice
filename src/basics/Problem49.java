@@ -10,9 +10,9 @@ public class Problem49 {
     sc.close();
 
     if (input % 2 == 0) {
-        System.out.print("The number is even");
+      System.out.print("The number is even");
     } else {
-        System.out.print("The number is odd");
+      System.out.print("The number is odd");
     }
   }
 }
