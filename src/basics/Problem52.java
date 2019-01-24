@@ -18,10 +18,10 @@ public class Problem52 {
   }
 
   public static void test(int a, int b, int c){
-    if(a + b == c) {
+    if (a + b == c) {
       System.out.println("The result is: True");
     } else {
-      System.out.print("The result is : False");
+      System.out.println("The result is : False");
     }
   }
  }
