@@ -12,13 +12,18 @@ public class Problem52 {
     int b = sc.nextInt();
     System.out.print("Enter the third number: ");
     int c = sc.nextInt();
-    System.out.println("The result is: " + test(a,b,c));
+    System.out.println("The result is: " + test(a, b, c));
 
     sc.close();
   }
+  
 
   public static boolean test(int a, int b, int c){
-    return ((a + b) == c || (b + c) == a || (c + a) == b);
+    if ((a + b) == c || (b + c) == a || (c + a) == b) {
+      return true;
+    } else {
+      return false;
+    }
   }
  }
  
