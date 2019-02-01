@@ -9,7 +9,7 @@ public class Array {
 
     String[] names = {"Anna", "Hanna", "Jenna", "Inna"};
     for (int i = 0; i < names.length; i++) {
-      System.out.println(names[i].toString() + " ");
+      System.out.println(names[i] + " ");
     }
   }
 }
