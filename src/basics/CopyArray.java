@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CopyArray {
   public static void main(String[] args) {
     String[] names = {"Anna", "Hanna", "Sanna", "Jenna"};
-    String[] copy = new String[4];
+    String[] copy = new String[names.length];
     System.out.println("Original array: " + Arrays.toString(names));
 
     for (int i = 0; i < names.length; i++) {
